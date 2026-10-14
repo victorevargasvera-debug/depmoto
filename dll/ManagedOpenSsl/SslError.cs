@@ -1,0 +1,27 @@
+﻿using System;
+
+namespace OpenSSL
+{
+	// Token: 0x0200005F RID: 95
+	internal enum SslError
+	{
+		// Token: 0x04000284 RID: 644
+		SSL_ERROR_NONE,
+		// Token: 0x04000285 RID: 645
+		SSL_ERROR_SSL,
+		// Token: 0x04000286 RID: 646
+		SSL_ERROR_WANT_READ,
+		// Token: 0x04000287 RID: 647
+		SSL_ERROR_WANT_WRITE,
+		// Token: 0x04000288 RID: 648
+		SSL_ERROR_WANT_X509_LOOKUP,
+		// Token: 0x04000289 RID: 649
+		SSL_ERROR_SYSCALL,
+		// Token: 0x0400028A RID: 650
+		SSL_ERROR_ZERO_RETURN,
+		// Token: 0x0400028B RID: 651
+		SSL_ERROR_WANT_CONNECT,
+		// Token: 0x0400028C RID: 652
+		SSL_ERROR_WANT_ACCEPT
+	}
+}

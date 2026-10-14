@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PcrProductFamilies>
+  <ProductFamily name="MatrixRadio">
+    <UuidList>
+      <Uuid>D105ADD323864E539B513A65076458D3</Uuid>
+    </UuidList>
+    <ReadPartitions>
+      <Partition name="Application" value="128" />
+      <Partition name="Security" value="129" />
+      <Partition name="Tuning" value="130" />
+    </ReadPartitions>
+    <WritePartitions>
+      <Partition name="Application" value="128" />
+    </WritePartitions>
+    <ReadFileList>
+    </ReadFileList>
+    <DeviceInfoDependencies>
+      <Info name="Is32MPlatform" CodeplugVersion="080000"/>
+      <Info name="AvailableMemory" CodeplugVersion="040000" Model="PortableDisplay; MobileDisplay; PortablePlain; MobilePlain"/>
+      <Info name="Region" CodeplugVersion="040000" Model="PortableDisplay; MobileDisplay ;PortablePlain; MobilePlain"/>
+      <Info name="LanguagePackInfo" Model="PortableDisplay; MobileDisplay"/>
+      <Info name="AvailableLPSpace" Model="PortableDisplay; MobileDisplay"/>
+      <Info name="IsLowBattery" Model="PortableDisplay; PortablePlain"/>
+      <Info name="MacAddress" CodeplugVersion="040000" Model="Repeater; BanditRepeater"/>
+      <Info name="BrickRXSerialNumber" Model="Repeater; BanditRepeater"/>
+      <Info name="BrickTXSerialNumber" Model="Repeater; BanditRepeater"/>
+      <Info name="MacAddressPort1" Model="Unknown" />
+      <Info name="MacAddressPort2" Model="Unknown" />
+      <Info name="MacAddressWIFIPort1" Model="Unknown" />
+      <Info name="MacAddressWIFIPort2" Model="Unknown" />
+      <Info name="DTPCapability" Model="Unknown" />
+      <Info name="FpgaInfo" CodeplugVersion="070000 " Model="BanditRepeater"/>
+      <Info name="WelcomeBitmap" Model="Unknown"/>
+      <Info name="L3BootloaderVersion" Model="Unknown"/>
+      <Info name="ConfigurationVersion" Model="Unknown"/>
+      <Info name="KernelVersion" Model="Unknown"/>
+      <Info name="PasswordStatus" CodeplugVersion="130100" Model="PortableDisplay; MobileDisplay; PortablePlain; MobilePlain"/>
+      <Info name="DSPCapability" Model="Unknown"/>
+      <Info name="TTSLanguagePackInfo" Model="Unknown"/>
+      <Info name="TTSLanguagePackData" Model="Unknown"/>
+      <Info name="PhysicalSerialNumber" Model="PortableDisplay; MobileDisplay; PortablePlain; MobilePlain"/>
+    </DeviceInfoDependencies>
+    <DeviceTypes>
+      <Model type="BanditRepeater" regex ="^[T]"/>
+      <Model type="Repeater" regex="^[M][0-9]{2}[A-Z]{2}[R]"/>
+      <Model type="PortableDisplay" regex="^[H][0-9]{2}[A-Z]{2}[H]"/>
+      <Model type="PortablePlain" regex="^[H][0-9]{2}[A-Z]{2}[CTJ]"/>
+      <Model type="MobileDisplay" regex="^[M][0-9]{2}[A-Z]{2}[H]"/>
+      <Model type="MobilePlain" regex="^[M][0-9]{2}[A-Z]{2}[C]"/>
+      <Model type="MobileDisplay" regex="^[H][K][0-9]{4}"/>
+    </DeviceTypes>
+  </ProductFamily>
+  <ProductFamily name="ParadiseRepeaterRadio">
+    <UuidList>
+      <Uuid>AF5DAB63F4FC4926BB9000A6F18AF3DC</Uuid>
+    </UuidList>
+    <ReadPartitions>
+      <Partition name="Application" value="128" />
+      <Partition name="Security" value="129" />
+      <Partition name="Tuning" value="130" />
+      <Partition name="Cfs" value="135" />
+    </ReadPartitions>
+    <WritePartitions>
+      <Partition name="Application" value="128" />
+    </WritePartitions>
+    <ReadFileList>
+    </ReadFileList>
+    <DeviceInfoDependencies>
+      <Info name="Is32MPlatform" Model="Unknown"/>
+      <Info name="AvailableMemory" Model="Unknown"/>
+      <Info name="LanguagePackInfo" Model="Unknown"/>
+      <Info name="AvailableLPSpace" Model="Unknown"/>
+      <Info name="IsLowBattery" Model="Unknown"/>
+      <Info name="MacAddress" Model="Unknown"/>
+      <Info name="MacAddressPort1" Model="Repeater" />
+      <Info name="MacAddressPort2" Model="Unknown" />
+      <Info name="MacAddressWIFIPort1" Model="Unknown" />
+      <Info name="MacAddressWIFIPort2" Model="Unknown" />
+      <Info name="DTPCapability" Model="Repeater" />
+      <Info name="FpgaInfo" Model="Unknown"/>
+      <Info name="WelcomeBitmap" Model="Unknown"/>
+      <Info name="ConfigurationVersion" Model="Unknown"/>
+      <Info name="KernelVersion" Model="Unknown"/>
+      <Info name="PasswordStatus" Model="Unknown"/>
+      <Info name="DSPCapability" Model="Unknown"/>
+      <Info name="TTSLanguagePackInfo" Model="Unknown"/>
+      <Info name="TTSLanguagePackData" Model="Unknown"/>
+      <Info name="PhysicalSerialNumber" Model="Unknown"/>
+      <Info name="BrickRXSerialNumber" Model="Unknown"/>
+      <Info name="BrickTXSerialNumber" Model="Unknown"/>
+    </DeviceInfoDependencies>
+    <DeviceTypes>
+      <Model type="Repeater" regex="(^[R][0-9]{2}[A-Z]{2}[GN])|(T8319A)" />
+    </DeviceTypes>
+  </ProductFamily>
+  <ProductFamily name="PhoenixRadio">
+    <UuidList>
+      <Uuid>06CE7B7163C0456A845A6E13421F0AE4</Uuid>
+    </UuidList>
+    <ReadPartitions>
+      <Partition name="Application" value="128" />
+      <Partition name="Security" value="129" />
+      <Partition name="Tuning" value="130" />
+      <Partition name="Ucl" value="147" />
+    </ReadPartitions>
+    <WritePartitions>
+      <Partition name="Application" value="128" />
+      <Partition name="Ucl" value="147" />
+    </WritePartitions>
+    <ReadFileList>
+    </ReadFileList>
+    <DeviceInfoDependencies>
+      <Info name="AvailableMemory" Model="Unknown"/>
+      <Info name="Is32MPlatform" Model="Unknown"/>
+      <Info name="LanguagePackInfo" Model="PortableDisplay; MobileDisplay"/>
+      <Info name="AvailableLPSpace" Model="PortableDisplay; MobileDisplay"/>
+      <Info name="IsLowBattery" Model="PortableDisplay; PortablePlain"/>
+      <Info name="MacAddress" Model="Unknown"/>
+      <Info name="MacAddressPort1" Model="Unknown" />
+      <Info name="MacAddressPort2" Model="Unknown" />
+      <Info name="MacAddressWIFIPort1" Model="Unknown" />
+      <Info name="MacAddressWIFIPort2" Model="Unknown" />
+      <Info name="DTPCapability" Model="Unknown" />
+      <Info name="FpgaInfo" Model="Unknown"/>
+      <Info name="WelcomeBitmap" Model="Unknown"/>
+      <Info name="L3BootloaderVersion" Model="Unknown"/>
+      <Info name="ConfigurationVersion" Model="Unknown"/>
+      <Info name="KernelVersion" Model="Unknown"/>
+      <Info name="PasswordStatus" Model="Unknown"/>
+      <Info name="DSPCapability" Model="Unknown"/>
+      <Info name="TTSLanguagePackInfo" Model="Unknown"/>
+      <Info name="TTSLanguagePackData" Model="Unknown"/>
+      <Info name="PhysicalSerialNumber" Model="Unknown"/>
+      <Info name="BrickRXSerialNumber" Model="Unknown"/>
+      <Info name="BrickTXSerialNumber" Model="Unknown"/>
+    </DeviceInfoDependencies>
+    <DeviceTypes>
+      <Model type="PortableDisplay" regex="^[H][0-9]{2}[A-Z]{2}[H]"/>
+      <Model type="PortablePlain" regex="^[H][0-9]{2}[A-Z]{2}[C]"/>
+      <Model type="MobileDisplay" regex="^[M][0-9]{2}[A-Z]{2}[H]"/>
+      <Model type="MobilePlain" regex="^[M][0-9]{2}[A-Z]{2}[C]"/>
+    </DeviceTypes>
+  </ProductFamily>
+  <ProductFamily name="ParadiseRadio">
+    <UuidList>
+      <Uuid name="Beilize">0C78E1B906C54D3A8F264CE5C4F0B9DF</Uuid>
+      <Uuid name="Malta">9F6C2442C375421981A8987115FC9ADE</Uuid>
+      <Uuid name="Andorra">0571AFE244664F999A96B020E82DC69C</Uuid>
+      <Uuid name="TahitiPlus">C52A3D4953FE469D8E11F05B143E8C56</Uuid>
+      <Uuid name="Reunion">106F58B631044D63B41F0C0D7720758D</Uuid>
+      <Uuid name="TongaPlus">EBCCE9BF33B14896B5C2E7E3AA19AF0F</Uuid>
+    </UuidList>
+    <ReadPartitions>
+      <Partition name="Application" value="128" />
+      <Partition name="Security" value="129" />
+      <Partition name="Tuning" value="130" />
+      <Partition name="Cfs" value="135" />
+    </ReadPartitions>
+    <WritePartitions>
+      <Partition name="Application" value="128" />
+    </WritePartitions>
+    <ReadFileList>
+      <Dir name ="VoiceAnnouncement" partition ="35" path="/opt/pcr/rel/data/va/"/>
+      <File name ="WelcomeBitmap" partition ="35" path="/opt/pcr/rel/data/mmi/welcome_bitmap"/>
+    </ReadFileList>
+    <DeviceInfoDependencies>
+      <Info name="LanguagePackInfo" Model="PortableDisplay; MobileDisplay; AndorraDisplay; TahitiPlus; PortablePlain; MobilePlain; AndorraPlain; TongaPlus"/>
+      <Info name="LanguagePackData" Model="PortableDisplay; MobileDisplay; AndorraDisplay; TahitiPlus; PortablePlain; MobilePlain; AndorraPlain; TongaPlus"/>
+      <Info name="AvailableLPSpace" Model="PortableDisplay; MobileDisplay; AndorraDisplay; TahitiPlus; PortablePlain; MobilePlain; AndorraPlain; TongaPlus"/>
+      <Info name="IsLowBattery" Model="PortableDisplay; PortablePlain; AndorraPlain; AndorraDisplay; TongaPlus"/>
+      <Info name="Is32MPlatform" Model="Unknown"/>
+      <Info name="MacAddress" Model="Unknown"/>
+      <Info name="MacAddressPort1" Model="Unknown" />
+      <Info name="MacAddressPort2" Model="Unknown" />
+      <Info name="MacAddressWIFIPort1" Model="Unknown" />
+      <Info name="MacAddressWIFIPort2" Model="Unknown" />
+      <Info name="DTPCapability" Model="Unknown" />
+      <Info name="FpgaInfo" Model="Unknown"/>
+      <Info name="WelcomeBitmap" Model="PortableDisplay; MobileDisplay; TahitiPlus"/>
+      <Info name="PasswordStatus" CodeplugVersion="050100" Model="PortableDisplay; MobileDisplay; AndorraDisplay; PortablePlain; MobilePlain; AndorraPlain; TahitiPlus; TongaPlus"/>
+      <Info name="DSPCapability" Model="TahitiPlus"/>
+      <Info name="TTSLanguagePackInfo" CodeplugVersion="070700" Model="PortableDisplay; PortablePlain; MobileDisplay; MobilePlain"/>
+      <Info name="TTSLanguagePackData" CodeplugVersion="070700" Model="PortableDisplay; PortablePlain; MobileDisplay; MobilePlain"/>
+      <Info name="BrickRXSerialNumber" Model="Unknown"/>
+      <Info name="BrickTXSerialNumber" Model="Unknown"/>
+      <Info name="PhysicalSerialNumber" Model="PortableDisplay; MobileDisplay; AndorraDisplay; PortablePlain; MobilePlain; AndorraPlain; TahitiPlus; TongaPlus"/>
+    </DeviceInfoDependencies>
+    <DeviceTypes>
+      <!--Matches the first type with the matching regex, specific ones should be applied first-->
+      <Model type="TahitiPlus" regex="^M02"/>
+      <Model type="TongaPlus" regex="^H88"/>
+      <Model type="AndorraDisplay" regex="^H02[A-Z]{2}[NHKMF]"/>
+      <Model type="AndorraPlain" regex="^H02[A-Z]{2}[CTJL]"/>
+      <Model type="PortableDisplay" regex="^[H][0-9]{2}[A-Z]{2}[RNHKMFQ]"/>
+      <Model type="PortablePlain" regex="^[H][0-9]{2}[A-Z]{2}[SCTJL]"/>
+      <Model type="MobileDisplay" regex="^[M][0-9]{2}[A-Z]{2}[NH]"/>
+      <Model type="MobilePlain" regex="^[M][0-9]{2}[A-Z]{2}[C]"/>
+    </DeviceTypes>
+  </ProductFamily>
+  <ProductFamily name="ParadiseLightRadio">
+    <UuidList>
+      <Uuid name="Timor">0C0D6EE58204FBDEBB8860C631AB465A</Uuid>
+      <Uuid name="Tonga">1EC82E1A4AE2B4F1A8AC27E8039CB7E4</Uuid>
+      <Uuid name="Tahiti">C4FC39D8DEF24B779D1CB719AF26A269</Uuid>
+    </UuidList>
+    <ReadPartitions>
+      <Partition name="Application" value="128" />
+      <Partition name="Security" value="129" />
+      <Partition name="Tuning" value="130" />
+      <Partition name="Cfs" value="135" />
+    </ReadPartitions>
+    <WritePartitions>
+      <Partition name="Application" value="128" />
+    </WritePartitions>
+    <ReadFileList>
+      <Dir name ="VoiceAnnouncement" partition ="35" path="/opt/pcr/rel/data/va/"/>
+      <File name ="WelcomeBitmap" partition ="35" path="/opt/pcr/rel/data/mmi/welcome_bitmap"/>
+    </ReadFileList>
+    <DeviceInfoDependencies>
+      <Info name="LanguagePackInfo" Model="PortableDisplay; MobileDisplay"/>
+      <Info name="LanguagePackData" Model="PortableDisplay; MobileDisplay"/>
+      <Info name="AvailableLPSpace" Model="PortableDisplay; MobileDisplay"/>
+      <Info name="IsLowBattery" Model="PortableDisplay; PortablePlain; TimorPlain"/>
+      <Info name="Is32MPlatform" Model="Unknown"/>
+      <Info name="MacAddress" Model="Unknown"/>
+      <Info name="MacAddressPort1" Model="Unknown" />
+      <Info name="MacAddressPort2" Model="Unknown" />
+      <Info name="MacAddressWIFIPort1" Model="Unknown" />
+      <Info name="MacAddressWIFIPort2" Model="Unknown" />
+      <Info name="DTPCapability" Model="Unknown" />
+      <Info name="FpgaInfo" Model="Unknown"/>
+      <Info name="WelcomeBitmap" Model="PortableDisplay; MobileDisplay"/>
+      <Info name="PasswordStatus" CodeplugVersion="050100" Model="PortableDisplay; PortablePlain; MobileDisplay; MobilePlain; TimorPlain"/>
+      <Info name="DSPCapability" Model="MobileDisplay; TimorPlain; MobilePlain"/>
+      <Info name="TTSLanguagePackInfo" Model="Unknown"/>
+      <Info name="TTSLanguagePackData" Model="Unknown"/>
+      <Info name="PhysicalSerialNumber" Model="Unknown"/>
+      <Info name="BrickRXSerialNumber" Model="Unknown"/>
+      <Info name="BrickTXSerialNumber" Model="Unknown"/>
+    </DeviceInfoDependencies>
+    <DeviceTypes>
+      <Model type="TimorPlain" regex="^H01[A-Z]{2}[CTJL]"/>
+      <Model type="PortableDisplay" regex="^[H][0-9]{2}[A-Z]{2}[NHKMFP]"/>
+      <Model type="PortablePlain" regex="^[H][0-9]{2}[A-Z]{2}[CTJL]"/>
+      <Model type="MobileDisplay" regex="^[M][0-9]{2}[A-Z]{2}[NH]"/>
+      <Model type="MobilePlain" regex="^[M][0-9]{2}[A-Z]{2}[C]"/>
+    </DeviceTypes>
+  </ProductFamily>
+</PcrProductFamilies>

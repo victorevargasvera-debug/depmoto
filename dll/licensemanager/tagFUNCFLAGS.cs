@@ -1,0 +1,9 @@
+﻿using System;
+using System.Runtime.CompilerServices;
+
+// Token: 0x020002BE RID: 702
+[global::System.Runtime.CompilerServices.NativeCppClass]
+internal enum tagFUNCFLAGS
+{
+
+}

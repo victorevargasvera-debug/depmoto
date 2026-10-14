@@ -1,0 +1,21 @@
+﻿using System;
+
+namespace SHDocVw
+{
+	// Token: 0x02000008 RID: 8
+	public enum OLECMDF
+	{
+		// Token: 0x0400003B RID: 59
+		OLECMDF_SUPPORTED = 1,
+		// Token: 0x0400003C RID: 60
+		OLECMDF_ENABLED,
+		// Token: 0x0400003D RID: 61
+		OLECMDF_LATCHED = 4,
+		// Token: 0x0400003E RID: 62
+		OLECMDF_NINCHED = 8,
+		// Token: 0x0400003F RID: 63
+		OLECMDF_INVISIBLE = 16,
+		// Token: 0x04000040 RID: 64
+		OLECMDF_DEFHIDEONCTXTMENU = 32
+	}
+}

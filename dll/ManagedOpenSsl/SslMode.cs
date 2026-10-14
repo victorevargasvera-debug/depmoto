@@ -1,0 +1,19 @@
+﻿using System;
+
+namespace OpenSSL
+{
+	// Token: 0x02000022 RID: 34
+	internal enum SslMode
+	{
+		// Token: 0x040000CE RID: 206
+		SSL_MODE_ENABLE_PARTIAL_WRITE = 1,
+		// Token: 0x040000CF RID: 207
+		SSL_MODE_ACCEPT_MOVING_WRITE_BUFFER,
+		// Token: 0x040000D0 RID: 208
+		SSL_MODE_AUTO_RETRY = 4,
+		// Token: 0x040000D1 RID: 209
+		SSL_MODE_NO_AUTO_CHAIN = 8,
+		// Token: 0x040000D2 RID: 210
+		SSL_MODE_RELEASE_BUFFERS = 16
+	}
+}

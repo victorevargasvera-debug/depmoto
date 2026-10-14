@@ -1,0 +1,11 @@
+﻿using System;
+using System.Runtime.CompilerServices;
+
+namespace <CppImplementationDetails>
+{
+	// Token: 0x0200014A RID: 330
+	[global::System.Runtime.CompilerServices.NativeCppClass]
+	internal struct $ArrayType$$$BY01Q6AXXZ
+	{
+	}
+}

@@ -1,0 +1,10 @@
+﻿using System;
+using System.Runtime.InteropServices;
+
+namespace mshtml
+{
+	// Token: 0x02000A5C RID: 2652
+	// (Invoke) Token: 0x06010A90 RID: 68240
+	[global::System.Runtime.InteropServices.ComVisible(false)]
+	public delegate void HTMLTableEvents2_onpropertychangeEventHandler([global::System.Runtime.InteropServices.MarshalAs(global::System.Runtime.InteropServices.UnmanagedType.Interface)] [global::System.Runtime.InteropServices.In] global::mshtml.IHTMLEventObj pEvtObj);
+}

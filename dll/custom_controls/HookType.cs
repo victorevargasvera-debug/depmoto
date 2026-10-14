@@ -1,0 +1,39 @@
+﻿using System;
+
+namespace custom_controls
+{
+	// Token: 0x0200007B RID: 123
+	public enum HookType
+	{
+		// Token: 0x040003A6 RID: 934
+		WH_JOURNALRECORD,
+		// Token: 0x040003A7 RID: 935
+		WH_JOURNALPLAYBACK,
+		// Token: 0x040003A8 RID: 936
+		WH_KEYBOARD,
+		// Token: 0x040003A9 RID: 937
+		WH_GETMESSAGE,
+		// Token: 0x040003AA RID: 938
+		WH_CALLWNDPROC,
+		// Token: 0x040003AB RID: 939
+		WH_CBT,
+		// Token: 0x040003AC RID: 940
+		WH_SYSMSGFILTER,
+		// Token: 0x040003AD RID: 941
+		WH_MOUSE,
+		// Token: 0x040003AE RID: 942
+		WH_HARDWARE,
+		// Token: 0x040003AF RID: 943
+		WH_DEBUG,
+		// Token: 0x040003B0 RID: 944
+		WH_SHELL,
+		// Token: 0x040003B1 RID: 945
+		WH_FOREGROUNDIDLE,
+		// Token: 0x040003B2 RID: 946
+		WH_CALLWNDPROCRET,
+		// Token: 0x040003B3 RID: 947
+		WH_KEYBOARD_LL,
+		// Token: 0x040003B4 RID: 948
+		WH_MOUSE_LL
+	}
+}

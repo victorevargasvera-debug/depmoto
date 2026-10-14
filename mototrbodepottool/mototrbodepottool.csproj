@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{DACC9F2B-0BDF-4A41-85E9-9D0292CA61BB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>mototrbodepottool</RootNamespace>
+    <AssemblyName>mototrbodepottool</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>4096</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>mototrbodepottool.ico</ApplicationIcon>
+    <StartupObject>mototrbodepottool.CMainFrame</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommonError">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\CommonError.dll</HintPath>
+    </Reference>
+    <Reference Include="communicationcontroller">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\communicationcontroller.dll</HintPath>
+    </Reference>
+    <Reference Include="controller">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\controller.dll</HintPath>
+    </Reference>
+    <Reference Include="cpservices">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\cpservices.dll</HintPath>
+    </Reference>
+    <Reference Include="cptags">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\cptags.dll</HintPath>
+    </Reference>
+    <Reference Include="custom_controls">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\custom_controls.dll</HintPath>
+    </Reference>
+    <Reference Include="custom_exception">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\custom_exception.dll</HintPath>
+    </Reference>
+    <Reference Include="deviceupdate">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\deviceupdate.dll</HintPath>
+    </Reference>
+    <Reference Include="errorlogging">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\errorlogging.dll</HintPath>
+    </Reference>
+    <Reference Include="ldapauthenticationinterfacecontroller">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\ldapauthenticationinterfacecontroller.dll</HintPath>
+    </Reference>
+    <Reference Include="licensedialog">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\licensedialog.dll</HintPath>
+    </Reference>
+    <Reference Include="registryaccess">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\registryaccess.dll</HintPath>
+    </Reference>
+    <Reference Include="resource_handler">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\resource_handler.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="xml_handler">
+      <HintPath>C:\Program Files (x86)\Motorola\MOTOTRBO DepotTool\xml_handler.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="a.Designer.cs">
+      <DependentUpon>a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="b.cs" />
+    <Compile Include="c.cs" />
+    <Compile Include="CDevConList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CDevConList.Designer.cs">
+      <DependentUpon>CDevConList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CGUIConstants.cs" />
+    <Compile Include="CMainFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMainFrame.Designer.cs">
+      <DependentUpon>CMainFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common\b.cs" />
+    <Compile Include="COneITLoginDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COneITLoginDlg.Designer.cs">
+      <DependentUpon>COneITLoginDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPlaySound.cs" />
+    <Compile Include="CProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CProgressBar.Designer.cs">
+      <DependentUpon>CProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomExceptionHandler.cs" />
+    <Compile Include="d.cs" />
+    <Compile Include="DotfuscatorAttribute.cs" />
+    <Compile Include="ListViewTemplate.cs" />
+    <Compile Include="OperateDevice.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="smoothprogress\a.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="a.resources" />
+    <EmbeddedResource Include="CDevConList.resources" />
+    <EmbeddedResource Include="CMainFrame.resources" />
+    <EmbeddedResource Include="COneITLoginDlg.resources" />
+    <EmbeddedResource Include="CProgressBar.resources" />
+    <EmbeddedResource Include="ListViewTemplate.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

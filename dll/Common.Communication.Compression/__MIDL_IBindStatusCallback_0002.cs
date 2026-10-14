@@ -1,0 +1,9 @@
+﻿using System;
+using System.Runtime.CompilerServices;
+
+// Token: 0x020000AD RID: 173
+[global::System.Runtime.CompilerServices.NativeCppClass]
+internal enum __MIDL_IBindStatusCallback_0002
+{
+
+}

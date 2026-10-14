@@ -1,0 +1,29 @@
+﻿using System;
+
+namespace custom_controls
+{
+	// Token: 0x0200006F RID: 111
+	public enum CbtHookAction
+	{
+		// Token: 0x04000330 RID: 816
+		HCBT_MOVESIZE,
+		// Token: 0x04000331 RID: 817
+		HCBT_MINMAX,
+		// Token: 0x04000332 RID: 818
+		HCBT_QS,
+		// Token: 0x04000333 RID: 819
+		HCBT_CREATEWND,
+		// Token: 0x04000334 RID: 820
+		HCBT_DESTROYWND,
+		// Token: 0x04000335 RID: 821
+		HCBT_ACTIVATE,
+		// Token: 0x04000336 RID: 822
+		HCBT_CLICKSKIPPED,
+		// Token: 0x04000337 RID: 823
+		HCBT_KEYSKIPPED,
+		// Token: 0x04000338 RID: 824
+		HCBT_SYSCOMMAND,
+		// Token: 0x04000339 RID: 825
+		HCBT_SETFOCUS
+	}
+}

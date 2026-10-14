@@ -1,0 +1,8 @@
+﻿using System;
+using System.Runtime.CompilerServices;
+
+// Token: 0x02000024 RID: 36
+[global::System.Runtime.CompilerServices.NativeCppClass]
+internal struct _comm_pipe_adapter_st
+{
+}

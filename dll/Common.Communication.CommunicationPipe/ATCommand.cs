@@ -1,0 +1,27 @@
+﻿using System;
+
+namespace Motorola.Common.Communication.CommunicationPipe
+{
+	// Token: 0x02000015 RID: 21
+	internal enum ATCommand
+	{
+		// Token: 0x04000089 RID: 137
+		UNDEFINED,
+		// Token: 0x0400008A RID: 138
+		AT_COMMAND_REQUEST_RADIO_INFORMAION = 100,
+		// Token: 0x0400008B RID: 139
+		AT_COMMAND_SET_FC_HW,
+		// Token: 0x0400008C RID: 140
+		AT_COMMAND_SET_FC_SW,
+		// Token: 0x0400008D RID: 141
+		AT_COMMAND_SET_FC_NONE,
+		// Token: 0x0400008E RID: 142
+		AT_COMMAND_SET_BR,
+		// Token: 0x0400008F RID: 143
+		AT_COMMAND_SET_IP_HOST,
+		// Token: 0x04000090 RID: 144
+		AT_COMMAND_SET_IP_CLIENT,
+		// Token: 0x04000091 RID: 145
+		AT_COMMAND_CONTEXT_ACT
+	}
+}

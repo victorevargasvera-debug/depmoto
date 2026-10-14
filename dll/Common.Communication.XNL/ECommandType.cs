@@ -1,0 +1,23 @@
+﻿using System;
+
+namespace Motorola.Common.Communication
+{
+	// Token: 0x02000012 RID: 18
+	internal enum ECommandType
+	{
+		// Token: 0x04000057 RID: 87
+		RNL_COMMAND_OPEN,
+		// Token: 0x04000058 RID: 88
+		RNL_COMMAND_CLOSE,
+		// Token: 0x04000059 RID: 89
+		RNL_COMMAND_SENDDATAMESSAGE,
+		// Token: 0x0400005A RID: 90
+		RNL_COMMAND_RECEIVEMESSAGE,
+		// Token: 0x0400005B RID: 91
+		RNL_COMMAND_SENDBROADCAST,
+		// Token: 0x0400005C RID: 92
+		RNL_COMMAND_REG_XCMP_BROADCAST,
+		// Token: 0x0400005D RID: 93
+		RNL_COMMAND_UNREG_XCMP_BROADCAST
+	}
+}

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CpsSequenceManagerData>
+  <SupportedUuidList>
+    <Uuid Value="d3ad05d1-8623-534e-9b51-3a65076458d3" Description="XTS2500"/>
+    <Uuid Value="cde9c2bd-b975-5841-b32c-204e0e98e009" Description="XTS5000"/>
+    <Uuid Value="4c247e50-ef0c-9245-b38d-f08012be5a7d" Description="Mackinaw Portable"/>
+    <Uuid Value="caa3bb0f-543c-e54b-a031-0f5b05b02ad8" Description="Mackinaw Mobile"/>
+    <Uuid Value="D427428E-E2F7-4aa6-A649-DEAC7BE93DD6" Description="APX6000"/>
+    <Uuid Value="57AD9F19-8745-455b-AB81-CFDA76AE8CDA" Description="APX7000Xe"/>
+    <Uuid Value="18B20B0F-D71A-4D88-B269-29F828F3C61A" Description="APX2000"/>
+    <Uuid Value="6D3B6561-40B2-4C72-BD21-8D631FAB75C4" Description="APX4000"/>
+    <Uuid Value="3FFF4D46-41E9-4E33-94C0-1B1B38FB3273" Description="SRX2200"/>
+    <Uuid Value="2331EEEB-EAB1-405C-AA31-FDD2C60D8DE7" Description="APX2500"/>
+    <Uuid Value="2CB878CF-00E4-4C2B-B841-0D6B8076662D" Description="APX3000"/>
+    <Uuid Value="67E58676-EC22-46E4-A668-C15918E0D3CF" Description="APX4500"/>
+    <Uuid Value="AC43B512-B79A-4EC8-A8B4-C3D013791131" Description="TXM2000"/>
+    <Uuid Value="A5198F6C-C6A5-4286-BFE6-8B040D1A1CCB" Description="APX1000"/>
+    <Uuid Value="CF2EA4C5-F9C0-4CD6-B60F-03FDA3FFE4C2" Description="APX7000L"/>
+    <Uuid Value="95B67EF3-8EEA-4414-9977-42563E290340" Description="APX4000XH"/>
+    <Uuid Value="DCE8570B-EA9C-42F4-A3C6-5363292E9D03" Description="APX8000"/>
+	<Uuid Value="FA89CFDC-AAA7-43BB-8C4E-464D44439412" Description="APX Alert"/>
+	<Uuid Value="DFE11F35-9D81-4C4C-9036-65D63899ED34" Description="APX2000 2-Knob"/>
+    <Uuid Value="3AF28F47-5B9C-4FB3-924B-BA53785F1F3F" Description="APX4000 2-Knob"/>
+    <Uuid Value="B1B2BBC6-F5A9-465C-803B-3A05D0888418" Description="APX1000 2-Knob"/>
+    <Uuid Value="199BF2A2-BF74-46F9-8CAE-5C608F4C4B0F" Description="APX1500" />
+    <Uuid Value="942163AD-C60D-4935-914B-DA15DD63B2AF" Description="APX8500" />
+    <Uuid Value="38609D75-D50B-445E-830B-78500234440A" Description="APX6000" />
+    <Uuid Value="1733EB15-B9F1-4712-A5DC-549184D8ABD8" Description="SRX2200" />
+    <Uuid Value="B6F14346-30AF-40FF-A894-D34614A47E12"  Description="APX1000+"/>
+    <Uuid Value="1D82469D-6BB7-410C-A19B-177BD27C02BB"  Description="VX-P940 Series"/>
+  </SupportedUuidList>
+</CpsSequenceManagerData>

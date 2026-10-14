@@ -1,0 +1,19 @@
+﻿using System;
+
+namespace SHDocVw
+{
+	// Token: 0x0200000A RID: 10
+	public enum tagREADYSTATE
+	{
+		// Token: 0x04000047 RID: 71
+		READYSTATE_UNINITIALIZED,
+		// Token: 0x04000048 RID: 72
+		READYSTATE_LOADING,
+		// Token: 0x04000049 RID: 73
+		READYSTATE_LOADED,
+		// Token: 0x0400004A RID: 74
+		READYSTATE_INTERACTIVE,
+		// Token: 0x0400004B RID: 75
+		READYSTATE_COMPLETE
+	}
+}
